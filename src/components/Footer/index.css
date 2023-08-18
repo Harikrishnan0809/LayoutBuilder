@@ -1,0 +1,13 @@
+/* Write your CSS here */
+.footer-heading {
+  font-family: 'Roboto';
+  font-size: 40px;
+  color: #475569;
+}
+
+.footer-container {
+  background-color: #cbd5e1;
+  width: 100%;
+  margin-top: 5px;
+  text-align: center;
+}

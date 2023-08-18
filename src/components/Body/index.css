@@ -1,0 +1,124 @@
+/* Write your CSS here */
+.body-container {
+  width: 100%;
+  min-height: 380px;
+  display: flex;
+  flex-direction: column;
+}
+.left-nav-container {
+  background-color: #e2e8f0;
+  padding: 15px;
+  margin-top: 5px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.side-heading {
+  font-size: 17px;
+  color: #475569;
+  font-family: 'Roboto';
+  font-weight: bolder;
+}
+
+.ul-item-container {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0px;
+  list-style-type: none;
+  justify-content: center;
+  align-items: center;
+}
+
+.left-nav-item {
+  font-size: 20px;
+  color: #64748b;
+  margin: 10px;
+}
+
+.content-container {
+  width: 100%;
+  text-align: center;
+  margin-top: 5px;
+  background-color: #f1f5f9;
+  padding: 15px;
+}
+
+.content-para {
+  font-size: 20px;
+  color: #64748b;
+}
+
+.right-nav-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: #e2e8f0;
+  margin-top: 5px;
+  padding: 15px;
+  text-align: center;
+}
+
+.ul-ad-box-container {
+  list-style-type: none;
+  padding-left: 0px;
+  display: flex;
+  justify-content: center;
+}
+
+.ad-box {
+  width: 100px;
+  height: 120px;
+  border: solid 2px #475569;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5px;
+}
+
+@media (min-width: 768px) {
+  .side-heading {
+    font-size: 16px;
+  }
+
+  .left-nav-item {
+    font-size: 15px;
+  }
+
+  .ul-item-container {
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .left-nav-container {
+    max-width: 160px;
+    margin-right: 5px;
+    text-align: left;
+  }
+
+  .body-container {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .right-nav-container {
+    max-width: 160px;
+    text-align: left;
+  }
+
+  .content-container {
+    margin-right: 5px;
+    text-align: left;
+  }
+
+  .ul-ad-box-container {
+    flex-direction: column;
+  }
+
+  .ad-box {
+    width: 120px;
+    height: 120px;
+  }
+}

@@ -1,0 +1,39 @@
+/* Write your CSS here */
+.controller-container {
+  background-color: #475569;
+  margin: 0px;
+}
+
+.controller-container {
+  margin: 0px;
+  padding: 10px;
+  padding-left: 50px;
+  width: 100%;
+}
+
+.layout-heading {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 40px;
+  margin-top: 0px;
+  margin-bottom: 20px;
+  padding: 0px;
+}
+
+.checkbox {
+  height: 15px;
+  width: 15px;
+}
+
+.label-name {
+  font-size: 15px;
+  font-family: 'Roboto';
+  color: #ffffff;
+  margin-left: 10px;
+}
+
+.check-box-container {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
